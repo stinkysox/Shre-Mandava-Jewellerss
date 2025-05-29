@@ -28,7 +28,7 @@ const JewelryHomePage = () => {
       title: "Silver Collection",
       description: "Contemporary silver pieces with modern sophistication",
       image:
-        "https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=400&h=300&fit=crop",
+        "https://i.postimg.cc/gc1ZQJ0x/Whats-App-Image-2025-05-29-at-10-58-30-PM.jpg",
       category: "Silver",
       className: "silver",
     },
@@ -37,7 +37,7 @@ const JewelryHomePage = () => {
       title: "Custom Jewellery",
       description: "Handcrafted pieces designed uniquely for your story",
       image:
-        "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=400&h=300&fit=crop",
+        "https://i.postimg.cc/0j5KdM5Q/Whats-App-Image-2025-05-29-at-11-05-11-PM.jpg",
       category: "Custom",
       className: "custom",
     },
