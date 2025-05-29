@@ -1,6 +1,8 @@
 import React from "react";
 import "./JewelryHomePage.css";
+import { useNavigate } from "react-router-dom";
 const JewelryHomePage = () => {
+  const navigate = useNavigate();
   const collections = [
     {
       id: 1,
@@ -8,7 +10,7 @@ const JewelryHomePage = () => {
       description:
         "Timeless elegance in pure gold, crafted with traditional artistry",
       image:
-        "https://i.pinimg.com/736x/2f/f2/39/2ff2393c294130759881e34904a110e3.jpg",
+        "https://i.postimg.cc/fbPFmmwz/Whats-App-Image-2025-05-29-at-10-51-03-PM.jpg",
       category: "Gold",
       className: "gold",
     },
@@ -158,7 +160,9 @@ const JewelryHomePage = () => {
               <span className="location-text">Bangalore</span>
             </div>
           </div>
-          <button className="hero-button">Explore Collections</button>
+          <button className="hero-button" onClick={() => navigate("/products")}>
+            Explore Collections
+          </button>
         </div>
       </section>
 
