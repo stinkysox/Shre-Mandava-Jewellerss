@@ -40,6 +40,10 @@ const Home = () => {
             imageUrl:
               "https://i.postimg.cc/J4VR5nVR/Whats-App-Image-2025-05-29-at-12-37-58-PM.jpg",
           },
+          {
+            imageUrl:
+              "https://i.postimg.cc/KztBGhjP/Whats-App-Image-2025-05-29-at-11-15-15-PM.jpg",
+          },
         ]}
         direction="left"
       />
