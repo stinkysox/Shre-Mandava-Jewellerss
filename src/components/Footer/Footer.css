@@ -1,0 +1,30 @@
+.footer {
+  background-color: #1e0233; /* dark background */
+  color: #f5f5f5; /* light text */
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.footer-logo {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+.footer-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.footer-copy {
+  font-size: 0.9rem;
+  color: #bbb;
+}

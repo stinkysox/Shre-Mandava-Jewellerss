@@ -1,0 +1,113 @@
+/* Products.css */
+
+.products-gallery-wrapper {
+  padding: 2rem;
+  text-align: center;
+  padding-top: 150px;
+  background: #faf9f6;
+}
+
+.products-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.instagram-section {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.instagram-button {
+  display: inline-flex;
+  align-items: center;
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+  color: white;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.instagram-button:hover {
+  transform: scale(1.05);
+}
+
+.instagram-icon {
+  margin-right: 10px;
+  font-size: 1.3rem;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.product-card {
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Popup Modal */
+.popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.popup-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+}
+
+.products-description {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+}
