@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import "./Contact.css";
 
 const galleryImages = [
-  "https://i.postimg.cc/LXCLW8Zs/Whats-App-Image-2025-05-29-at-6-00-49-PM-2.jpg",
   "https://i.postimg.cc/Hn8cP4gS/Whats-App-Image-2025-05-29-at-6-00-52-PM.jpg",
-  "https://i.postimg.cc/gjbXQL2m/Whats-App-Image-2025-05-29-at-6-00-50-PM-3.jpg",
 ];
 
 const Contact = () => {
