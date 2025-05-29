@@ -20,6 +20,11 @@ const Contact = () => {
           over the phone or visit our store in person, we are here to assist you
           with warmth and professionalism.
         </p>
+
+        <p className="branch-intro">
+          <strong>We have two branches:</strong>
+        </p>
+
         <div className="contact-info">
           <p>
             <strong>Phone:</strong> +91 9121415999
@@ -28,10 +33,16 @@ const Contact = () => {
             <strong>Email:</strong> shremandavajewellerss@gmail.com
           </p>
           <p>
-            <strong>Store Address:</strong> Sidhartha Nagar, Kalyan Nagar,
-            Hyderabad, Sindh, 500038
+            <strong>Hyderabad Branch:</strong> Plot no 69, Varahi Nilayam,
+            Sanjeeva Reddy Nagar, Hyderabad, 500033
+          </p>
+          <p>
+            <strong>Bangalore Branch:</strong> No:21/1, Ground Floor,
+            Marathahalli Flyover Service Road, Opposite Purva Function Square,
+            Bangalore - 560037
           </p>
         </div>
+
         <p className="contact-welcome">
           Feel free to reach out—we're ready to welcome you with open arms and
           exquisite collections!
