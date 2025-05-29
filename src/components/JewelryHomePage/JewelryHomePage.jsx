@@ -19,7 +19,7 @@ const JewelryHomePage = () => {
       title: "Diamond Collection",
       description: "Brilliant diamonds that capture light and hearts alike",
       image:
-        "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400&h=300&fit=crop",
+        "https://i.postimg.cc/d3nH4y8S/Whats-App-Image-2025-05-29-at-11-08-22-PM.jpg",
       category: "Diamond",
       className: "diamond",
     },
