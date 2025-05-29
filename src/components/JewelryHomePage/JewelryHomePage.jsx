@@ -8,7 +8,7 @@ const JewelryHomePage = () => {
       description:
         "Timeless elegance in pure gold, crafted with traditional artistry",
       image:
-        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&h=300&fit=crop",
+        "https://i.pinimg.com/736x/2f/f2/39/2ff2393c294130759881e34904a110e3.jpg",
       category: "Gold",
       className: "gold",
     },
@@ -38,6 +38,17 @@ const JewelryHomePage = () => {
         "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=400&h=300&fit=crop",
       category: "Custom",
       className: "custom",
+    },
+
+    {
+      id: 5,
+      title: "Astrology Stone",
+      description:
+        "Precise stones selected to align with your zodiac and enhance your energies",
+      image:
+        "https://i.pinimg.com/736x/39/07/6e/39076ec09093ad23f20cb951f9d0434e.jpg",
+      category: "Astrology",
+      className: "astrology",
     },
   ];
 

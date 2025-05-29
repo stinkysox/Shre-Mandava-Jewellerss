@@ -13,20 +13,32 @@ const Home = () => {
         images={[
           {
             imageUrl:
-              "https://i.postimg.cc/J4VR5nVR/Whats-App-Image-2025-05-29-at-12-37-58-PM.jpg",
+              "https://i.postimg.cc/FFMW9hK6/Whats-App-Image-2025-05-29-at-10-32-35-PM.jpg",
           },
           {
             imageUrl:
-              "https://i.postimg.cc/wvFgq542/Whats-App-Image-2025-05-29-at-12-37-57-PM.jpg",
+              "https://i.postimg.cc/hGY8p0zY/Whats-App-Image-2025-05-29-at-10-32-47-PM.jpg",
           },
           {
             imageUrl:
-              "https://i.postimg.cc/rmqq2Zjz/Whats-App-Image-2025-05-29-at-12-37-57-PM-1.jpg",
+              "https://i.postimg.cc/PJsWkrMz/Whats-App-Image-2025-05-29-at-6-00-50-PM-2.jpg",
+          },
+          {
+            imageUrl:
+              "https://i.postimg.cc/kgtJQbDM/Whats-App-Image-2025-05-29-at-12-37-58-PM-1.jpg",
           },
 
           {
             imageUrl:
-              "https://i.postimg.cc/kgtJQbDM/Whats-App-Image-2025-05-29-at-12-37-58-PM-1.jpg",
+              "https://i.postimg.cc/LXCLW8Zs/Whats-App-Image-2025-05-29-at-6-00-49-PM-2.jpg",
+          },
+          {
+            imageUrl:
+              "https://i.postimg.cc/Hngyhvp6/Whats-App-Image-2025-05-29-at-10-34-37-PM.jpg",
+          },
+          {
+            imageUrl:
+              "https://i.postimg.cc/J4VR5nVR/Whats-App-Image-2025-05-29-at-12-37-58-PM.jpg",
           },
         ]}
         direction="left"
