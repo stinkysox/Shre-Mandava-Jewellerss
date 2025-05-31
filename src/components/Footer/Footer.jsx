@@ -23,7 +23,7 @@ const Footer = () => {
           WhatsApp: +91 9121415999
         </a>
         <a
-          href="https://www.instagram.com/shre_mandava_jewellerss/"
+          href="https://www.instagram.com/shremandavajewellerss/"
           target="_blank"
           rel="noopener noreferrer"
           className="footer-link"

@@ -80,7 +80,7 @@ const AboutUs = () => {
           </div>
 
           <div className="cta">
-            <button onClick={navigate("/products")}>
+            <button onClick={() => navigate("/products")}>
               Explore Our Collections
             </button>
           </div>
